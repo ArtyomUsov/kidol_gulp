@@ -5,7 +5,7 @@
 // импорт обнуления стилей страницы 
 @import "nullstyle";
 // импорт иконок ( шрифтовых изображений ) 
-@import "icon";
+@import "iconstyle";
 body {
     margin: auto;
     display: block;
@@ -95,7 +95,7 @@ header {
     //flex:0 0 auto;
 }
 .bag-gray {
-    background-color: #898989;
+    background-color: #f6f6f6;
 }
 // main {
 //     margin: 0;
