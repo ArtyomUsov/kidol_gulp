@@ -48,11 +48,11 @@ p {
     margin-bottom: 15px;
     display: block;
   }
-//.stick .buy-btn {
-//    border: 2px solid #e26980;
-//    color: #e26980;
-//    margin-top: 3px;
-//}
+.stick .buy-btn {
+   border: 2px solid #e26980;
+   color: #e26980;
+   margin-top: 3px;
+}
 .button-buy {
     text-align: center;
     
@@ -69,6 +69,7 @@ p {
     margin-top: 0;
     padding: 6px 17px;
     text-transform: uppercase;
+    text-align: center;
 }
 .buy-btn:hover {
     color: rgb(255, 255, 255);
@@ -236,7 +237,7 @@ img {
     flex-wrap: wrap;
     justify-content: center;
     margin-top: calc(var(--bs-gutter-y) * -1); 
-    // max-width: 100%;
+    max-width: 100%;
     // width: 100%;
 }
 .row > [class*=col-] {
