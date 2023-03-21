@@ -1,15 +1,15 @@
 {
   "name": "gulp",
   "version": "1.0.0",
-  "description": "",
   "main": "gulplfile.js",
   "type": "module",
   "scripts": {
     "dev": "gulp",
     "build": "gulp build --build",
     "zip": "gulp deployZIP --build",
-    "deploy": "gulp deployFTP --build",
-    "svgSprive": "gulp svgSprive"
+    "gulpdeploy": "gulp deployFTP --build",
+    "svgSprive": "gulp svgSprive",
+    "deploy": "gh-pages -d build"
   },
   "author": "art",
   "license": "ISC",
@@ -19,6 +19,7 @@
   "devDependencies": {
     "browser-sync": "^2.27.10",
     "del": "^7.0.0",
+    "gh-pages": "^5.0.0",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^8.0.0",
     "gulp-clean-css": "^4.3.0",
@@ -48,5 +49,15 @@
     "webp-converter": "2.2.3",
     "webpack": "^5.75.0",
     "webpack-stream": "^7.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArtyomUsov/Kidol.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/ArtyomUsov/Kidol/issues"
+  },
+  "homepage": "https://ArtyomUsov.github.io/kidol_gulp",
+  "description": ""
 }
