@@ -1,0 +1,1113 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900|Open+Sans:300,400,600,700,800");
+
+@font-face {
+  font-family: d9464;
+  font-display: swap;
+  src: url("../fonts/d9464-arkhip_font.woff2") format("woff2"), url("../fonts/d9464-arkhip_font.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  line-height: 24px;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "et-line";
+  src: url("../fonts/et-line.eot");
+  src: url("../fonts/et-line.eot?#iefix") format("embedded-opentype"), url("../fonts/et-line.woff") format("woff"), url("../fonts/et-line.ttf") format("truetype"), url("../fonts/et-line.svg#et-line") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+
+[data-icon]:before {
+  font-family: "et-line";
+  content: attr(data-icon);
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="icon-"] {
+*/
+
+.icon-mobile,
+.icon-laptop,
+.icon-desktop,
+.icon-tablet,
+.icon-phone,
+.icon-document,
+.icon-documents,
+.icon-search,
+.icon-clipboard,
+.icon-newspaper,
+.icon-notebook,
+.icon-book-open,
+.icon-browser,
+.icon-calendar,
+.icon-presentation,
+.icon-picture,
+.icon-pictures,
+.icon-video,
+.icon-camera,
+.icon-printer,
+.icon-toolbox,
+.icon-briefcase,
+.icon-wallet,
+.icon-gift,
+.icon-bargraph,
+.icon-grid,
+.icon-expand,
+.icon-focus,
+.icon-edit,
+.icon-adjustments,
+.icon-ribbon,
+.icon-hourglass,
+.icon-lock,
+.icon-megaphone,
+.icon-shield,
+.icon-trophy,
+.icon-flag,
+.icon-map,
+.icon-puzzle,
+.icon-basket,
+.icon-envelope,
+.icon-streetsign,
+.icon-telescope,
+.icon-gears,
+.icon-key,
+.icon-paperclip,
+.icon-attachment,
+.icon-pricetags,
+.icon-lightbulb,
+.icon-layers,
+.icon-pencil,
+.icon-tools,
+.icon-tools-2,
+.icon-scissors,
+.icon-paintbrush,
+.icon-magnifying-glass,
+.icon-circle-compass,
+.icon-linegraph,
+.icon-mic,
+.icon-strategy,
+.icon-beaker,
+.icon-caution,
+.icon-recycle,
+.icon-anchor,
+.icon-profile-male,
+.icon-profile-female,
+.icon-bike,
+.icon-wine,
+.icon-hotairballoon,
+.icon-globe,
+.icon-genius,
+.icon-map-pin,
+.icon-dial,
+.icon-chat,
+.icon-heart,
+.icon-cloud,
+.icon-upload,
+.icon-download,
+.icon-target,
+.icon-hazardous,
+.icon-piechart,
+.icon-speedometer,
+.icon-global,
+.icon-compass,
+.icon-lifesaver,
+.icon-clock,
+.icon-aperture,
+.icon-quote,
+.icon-scope,
+.icon-alarmclock,
+.icon-refresh,
+.icon-happy,
+.icon-sad,
+.icon-facebook,
+.icon-twitter,
+.icon-googleplus,
+.icon-rss,
+.icon-tumblr,
+.icon-linkedin,
+.icon-dribbble {
+  font-family: "et-line";
+  padding-top: 20px;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+}
+
+.icon-mobile:before {
+  content: "\e000";
+}
+
+.icon-laptop:before {
+  content: "\e001";
+}
+
+.icon-desktop:before {
+  content: "\e002";
+}
+
+.icon-tablet:before {
+  content: "\e003";
+}
+
+.icon-phone:before {
+  content: "\e004";
+}
+
+.icon-document:before {
+  content: "\e005";
+}
+
+.icon-documents:before {
+  content: "\e006";
+}
+
+.icon-search:before {
+  content: "\e007";
+}
+
+.icon-clipboard:before {
+  content: "\e008";
+}
+
+.icon-newspaper:before {
+  content: "\e009";
+}
+
+.icon-notebook:before {
+  content: "\e00a";
+}
+
+.icon-book-open:before {
+  content: "\e00b";
+}
+
+.icon-browser:before {
+  content: "\e00c";
+}
+
+.icon-calendar:before {
+  content: "\e00d";
+}
+
+.icon-presentation:before {
+  content: "\e00e";
+}
+
+.icon-picture:before {
+  content: "\e00f";
+}
+
+.icon-pictures:before {
+  content: "\e010";
+}
+
+.icon-video:before {
+  content: "\e011";
+}
+
+.icon-camera:before {
+  content: "\e012";
+}
+
+.icon-printer:before {
+  content: "\e013";
+}
+
+.icon-toolbox:before {
+  content: "\e014";
+}
+
+.icon-briefcase:before {
+  content: "\e015";
+}
+
+.icon-wallet:before {
+  content: "\e016";
+}
+
+.icon-gift:before {
+  content: "\e017";
+}
+
+.icon-bargraph:before {
+  content: "\e018";
+}
+
+.icon-grid:before {
+  content: "\e019";
+}
+
+.icon-expand:before {
+  content: "\e01a";
+}
+
+.icon-focus:before {
+  content: "\e01b";
+}
+
+.icon-edit:before {
+  content: "\e01c";
+}
+
+.icon-adjustments:before {
+  content: "\e01d";
+}
+
+.icon-ribbon:before {
+  content: "\e01e";
+}
+
+.icon-hourglass:before {
+  content: "\e01f";
+}
+
+.icon-lock:before {
+  content: "\e020";
+}
+
+.icon-megaphone:before {
+  content: "\e021";
+}
+
+.icon-shield:before {
+  content: "\e022";
+}
+
+.icon-trophy:before {
+  content: "\e023";
+}
+
+.icon-flag:before {
+  content: "\e024";
+}
+
+.icon-map:before {
+  content: "\e025";
+}
+
+.icon-puzzle:before {
+  content: "\e026";
+}
+
+.icon-basket:before {
+  content: "\e027";
+}
+
+.icon-envelope:before {
+  content: "\e028";
+}
+
+.icon-streetsign:before {
+  content: "\e029";
+}
+
+.icon-telescope:before {
+  content: "\e02a";
+}
+
+.icon-gears:before {
+  content: "\e02b";
+}
+
+.icon-key:before {
+  content: "\e02c";
+}
+
+.icon-paperclip:before {
+  content: "\e02d";
+}
+
+.icon-attachment:before {
+  content: "\e02e";
+}
+
+.icon-pricetags:before {
+  content: "\e02f";
+}
+
+.icon-lightbulb:before {
+  content: "\e030";
+}
+
+.icon-layers:before {
+  content: "\e031";
+}
+
+.icon-pencil:before {
+  content: "\e032";
+}
+
+.icon-tools:before {
+  content: "\e033";
+}
+
+.icon-tools-2:before {
+  content: "\e034";
+}
+
+.icon-scissors:before {
+  content: "\e035";
+}
+
+.icon-paintbrush:before {
+  content: "\e036";
+}
+
+.icon-magnifying-glass:before {
+  content: "\e037";
+}
+
+.icon-circle-compass:before {
+  content: "\e038";
+}
+
+.icon-linegraph:before {
+  content: "\e039";
+}
+
+.icon-mic:before {
+  content: "\e03a";
+}
+
+.icon-strategy:before {
+  content: "\e03b";
+}
+
+.icon-beaker:before {
+  content: "\e03c";
+}
+
+.icon-caution:before {
+  content: "\e03d";
+}
+
+.icon-recycle:before {
+  content: "\e03e";
+}
+
+.icon-anchor:before {
+  content: "\e03f";
+}
+
+.icon-profile-male:before {
+  content: "\e040";
+}
+
+.icon-profile-female:before {
+  content: "\e041";
+}
+
+.icon-bike:before {
+  content: "\e042";
+}
+
+.icon-wine:before {
+  content: "\e043";
+}
+
+.icon-hotairballoon:before {
+  content: "\e044";
+}
+
+.icon-globe:before {
+  content: "\e045";
+}
+
+.icon-genius:before {
+  content: "\e046";
+}
+
+.icon-map-pin:before {
+  content: "\e047";
+}
+
+.icon-dial:before {
+  content: "\e048";
+}
+
+.icon-chat:before {
+  content: "\e049";
+}
+
+.icon-heart:before {
+  content: "\e04a";
+}
+
+.icon-cloud:before {
+  content: "\e04b";
+}
+
+.icon-upload:before {
+  content: "\e04c";
+}
+
+.icon-download:before {
+  content: "\e04d";
+}
+
+.icon-target:before {
+  content: "\e04e";
+}
+
+.icon-hazardous:before {
+  content: "\e04f";
+}
+
+.icon-piechart:before {
+  content: "\e050";
+}
+
+.icon-speedometer:before {
+  content: "\e051";
+}
+
+.icon-global:before {
+  content: "\e052";
+}
+
+.icon-compass:before {
+  content: "\e053";
+}
+
+.icon-lifesaver:before {
+  content: "\e054";
+}
+
+.icon-clock:before {
+  content: "\e055";
+}
+
+.icon-aperture:before {
+  content: "\e056";
+}
+
+.icon-quote:before {
+  content: "\e057";
+}
+
+.icon-scope:before {
+  content: "\e058";
+}
+
+.icon-alarmclock:before {
+  content: "\e059";
+}
+
+.icon-refresh:before {
+  content: "\e05a";
+}
+
+.icon-happy:before {
+  content: "\e05b";
+}
+
+.icon-sad:before {
+  content: "\e05c";
+}
+
+.icon-facebook:before {
+  content: "\e05d";
+}
+
+.icon-twitter:before {
+  content: "\e05e";
+}
+
+.icon-googleplus:before {
+  content: "\e05f";
+}
+
+.icon-rss:before {
+  content: "\e060";
+}
+
+.icon-tumblr:before {
+  content: "\e061";
+}
+
+.icon-linkedin:before {
+  content: "\e062";
+}
+
+.icon-dribbble:before {
+  content: "\e063";
+}
+
+body {
+  margin: auto;
+  display: block;
+  background: rgb(255, 255, 255);
+  background-position: absolute;
+  background-repeat: no-repeat;
+  color: #999999;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #373737;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 0px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  z-index: 99999;
+}
+
+a {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  text-decoration: none;
+}
+
+a,
+button,
+input,
+textarea {
+  outline: medium none;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #999999;
+  margin-bottom: 15px;
+  display: block;
+}
+
+.stick .buy-btn {
+  border: 2px solid #e26980;
+  color: #e26980;
+  margin-top: 3px;
+}
+
+.button-buy {
+  text-align: center;
+}
+
+.buy-btn {
+  border: 2px solid #ffffff;
+  border-radius: 50px;
+  color: #ffffff;
+  display: block;
+  font-size: 13px;
+  font-weight: 500;
+  height: auto;
+  line-height: 24px;
+  margin-top: 0;
+  padding: 6px 17px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.buy-btn:hover {
+  color: rgb(255, 255, 255);
+  border-color: #e26980;
+  background-color: #e26980;
+}
+
+.bottom-btn:hover {
+  color: rgb(0, 0, 0);
+}
+
+.head-background {
+  height: 100vh;
+}
+
+header {
+  position: static;
+}
+
+.bag-gray,
+.bag-white {
+  background-color: #fff;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.bag-gray {
+  background-color: #f6f6f6;
+}
+
+.background-image {
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  position: absolute;
+  background-color: white;
+}
+
+.head_image {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  z-index: -1;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.2);
+  z-index: 0;
+}
+
+.section {
+  float: left;
+  position: relative;
+  width: 100%;
+}
+
+.header-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.header-section {
+  background-color: transparent;
+  padding: 20px 0;
+  z-index: 99999;
+  position: absolute;
+}
+
+.footer-section {
+  background-color: #1B1B1C;
+}
+
+.hero-section {
+  padding: 300px 0 250px;
+  z-index: 99998;
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  max-width: 1140px;
+  width: 100%;
+}
+
+.logo {
+  max-width: 148px;
+  padding: 2px 0;
+}
+
+img {
+  max-width: 100%;
+  -webkit-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+  vertical-align: middle;
+}
+
+.demo-item {
+  -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+          box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+  background-color: rgb(255, 255, 255);
+  color: #000000;
+  text-align: center;
+  font-size: 18px;
+  width: 100%;
+  height: auto;
+  max-width: 350px;
+  max-height: 420px;
+  padding: 0;
+  font-weight: 500;
+}
+
+.image {
+  display: block;
+  height: auto;
+  max-width: 350px;
+  max-height: 350px;
+  -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+          box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+}
+
+.Image {
+  display: block;
+  -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+          box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+}
+
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: calc(var(--bs-gutter-y) * -1);
+  max-width: 100%;
+}
+
+.row > [class*=col-] {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.hero-content h1 {
+  color: #fff;
+  font-size: 36px;
+  font-weight: 500;
+}
+
+.hero-content h1 strong {
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  display: block;
+}
+
+.hero-content h1 span {
+  display: block;
+  font-size: 44px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.hero-content p {
+  color: #fff;
+  margin: 20px auto 0;
+  max-width: 710px;
+}
+
+.hero-content a {
+  margin-top: 40px;
+  display: inline-block;
+}
+
+.sticker .sticky-logo {
+  display: none;
+  visibility: hidden;
+}
+
+.pt-120 {
+  padding-top: 120px;
+}
+
+.pb-70 {
+  padding-bottom: 70px;
+}
+
+.col-12 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+  width: 100%;
+}
+
+.mb-50 {
+  margin-bottom: 50px;
+}
+
+.mb-70 {
+  margin-bottom: 70px;
+}
+
+h4 {
+  padding-bottom: 20px;
+  margin-top: 20px;
+}
+
+h1 {
+  color: #fff;
+  display: block;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.pt-65 {
+  padding-top: 65px;
+}
+
+.pt-150 {
+  padding-top: 150px;
+}
+
+.pb-100 {
+  padding-bottom: 100px;
+}
+
+.pb-50 {
+  padding-bottom: 50px;
+}
+
+.justify-content-between {
+  -webkit-box-pack: justify !important;
+      -ms-flex-pack: justify !important;
+          justify-content: space-between !important;
+}
+
+.text-center {
+  text-align: center !important;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.d-flex {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+
+.demo-item:hover .image {
+  -webkit-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+          box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+  -webkit-transform: translateY(-10px);
+      -ms-transform: translateY(-10px);
+          transform: translateY(-10px);
+}
+
+.demo-item:hover .image::after {
+  opacity: 0.6;
+}
+
+.demo-item:hover .image i {
+  opacity: 0.9;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.demo-item .image i:hover {
+  background-color: #ffffff;
+  color: #122179;
+}
+
+.demo-item .title {
+  font-size: 18px;
+  margin-top: 0;
+  padding: 20px 0;
+  font-weight: 500;
+}
+
+.demo-item .title a {
+  color: #3f3f3f;
+  display: block;
+  padding: 5px;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.demo-item .title a:hover {
+  color: #e26980;
+}
+
+.single-feature .icon {
+  color: #e26980;
+  margin-right: 20px;
+}
+
+.single-feature .icon i {
+  display: block;
+  font-size: 36px;
+}
+
+.single-feature .content {
+  padding-top: 5px;
+}
+
+.single-feature .content h4 {
+  display: block;
+  font-size: 18px;
+  line-height: 13px;
+  padding-bottom: 2px;
+  text-transform: capitalize;
+}
+
+.single-feature .content p {
+  color: #666;
+  margin: 0;
+}
+
+.footer-section {
+  background-color: #1B1B1C;
+}
+
+.section-title h1 {
+  color: #373737;
+  display: block;
+  font-weight: 500;
+  font-size: calc(1.375rem + 1.5vw);
+  line-height: 35px;
+  margin: 0;
+  position: relative;
+  text-transform: capitalize;
+  z-index: 1;
+}
+
+h2 {
+  font-size: calc(1.325rem + 0.9vw);
+}
+
+.footer-section h1 {
+  color: #fff;
+  display: block;
+  float: left;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.also-like .demo-item .title {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 22px 0 0;
+  text-transform: capitalize;
+}
+
+.float-left {
+  float: left;
+}
+
+.fix {
+  overflow: hidden;
+}
+
+@media (min-width: 992px) {
+  .col-lg-4 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 auto;
+            flex: 0 0 auto;
+    width: 33.33333333%;
+  }
+}
+
+@media (min-width: 1200px) {
+  h2 {
+    font-size: 2rem;
+  }
+}
